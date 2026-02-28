@@ -14,13 +14,13 @@ const FILE_PATH = process.env.FILE_PATH || './.tmp';
 const SUB_PATH = process.env.SUB_PATH || 'sub';
 const PORT = process.env.SERVER_PORT || process.env.PORT || 3000;
 const KAMAN = process.env.KAMAN || 'ad580ab2-dd94-4298-9299-bc85a6e462f1';
-const YOUNGHERO_SERVER = process.env.YOUNGHERO_SERVER || 'nzag.faiz.us.kg:8008';
+const YOUNGHERO_SERVER = process.env.YOUNGHERO_SERVER || '';
 const YOUNGHERO_PORT = process.env.YOUNGHERO_PORT || '';
-const YOUNGHERO_KEY = process.env.YOUNGHERO_KEY || 'JgARl5rWKs4k8TTuG1OgFcaxrxsjmpHl';
+const YOUNGHERO_KEY = process.env.YOUNGHERO_KEY || '';
 const SUIDAO_DOMAIN = process.env.SUIDAO_DOMAIN || '';
 const SUIDAO_AUTH = process.env.SUIDAO_AUTH || '';
 const SUIDAO_PORT = process.env.SUIDAO_PORT || 8001;
-const CFIP = process.env.CFIP || 'cdns.doon.eu.org';
+const CFIP = process.env.CFIP || 'saas.sin.fan';
 const CFPORT = process.env.CFPORT || 443;
 const NAME = process.env.NAME || '';
 
